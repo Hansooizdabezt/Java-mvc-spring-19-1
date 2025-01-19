@@ -64,7 +64,7 @@ public class ProductController {
         }
 
         //
-        String image = this.uploadService.handleSaveUploadFile(file, "image");
+        String image = this.uploadService.handleSaveUploadFile(file, "product");
 
         newProduct.setImage(image);
 
