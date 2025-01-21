@@ -1,5 +1,8 @@
 package vn.hoidanit.laptopshop.domain.dto;
 
+import vn.hoidanit.laptopshop.service.validator.RegisterChecked;
+
+@RegisterChecked
 public class RegisterDTO {
     private String firstName;
     private String lastName;
@@ -46,6 +49,7 @@ public class RegisterDTO {
     public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
+
     @Override
     public String toString() {
         return "registerDTO [firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", password="
