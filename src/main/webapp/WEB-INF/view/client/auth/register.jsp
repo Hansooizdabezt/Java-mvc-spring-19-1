@@ -43,7 +43,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
                                                                 <form:input
-                                                                    class="form-control ${not empty errorPassword ? 'is-invalid' : ''}"
+                                                                    class="form-control ${not empty errorFirstName ? 'is-invalid' : ''}"
                                                                     type="text" placeholder="Enter your first name"
                                                                     path="firstName" />
                                                                 <label for="inputFirstName">First name</label>
