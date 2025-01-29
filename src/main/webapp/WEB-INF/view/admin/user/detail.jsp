@@ -46,6 +46,8 @@
                                                     <li class="list-group-item">Email: ${user.email}</li>
                                                     <li class="list-group-item">FullName: ${user.fullName}</li>
                                                     <li class="list-group-item">Address: ${user.address}</li>
+                                                    <img class="card-img-top" src="/images/avatar/${user.avatar}"
+                                                        alt="Card image cap">
                                                 </ul>
                                             </div>
                                             <a href="/admin/user" class="btn btn-success mt-3">Back</a>
